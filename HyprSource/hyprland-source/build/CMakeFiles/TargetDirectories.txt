@@ -1,0 +1,5 @@
+/home/wann/Development/udemy-flutter/HyprSource/hyprland-source/build/CMakeFiles/Hyprland.dir
+/home/wann/Development/udemy-flutter/HyprSource/hyprland-source/build/CMakeFiles/package.dir
+/home/wann/Development/udemy-flutter/HyprSource/hyprland-source/build/CMakeFiles/package_source.dir
+/home/wann/Development/udemy-flutter/HyprSource/hyprland-source/build/CMakeFiles/edit_cache.dir
+/home/wann/Development/udemy-flutter/HyprSource/hyprland-source/build/CMakeFiles/rebuild_cache.dir

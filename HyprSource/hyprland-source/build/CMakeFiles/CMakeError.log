@@ -1,0 +1,27 @@
+Determining if the function backtrace exists in the execinfo failed with the following output:
+Change Dir: /home/wann/Development/udemy-flutter/HyprSource/hyprland-source/build/CMakeFiles/CMakeScratch/TryCompile-Lzxlzz
+
+Run Build Command(s):/usr/bin/ninja cmTC_09f92 && [1/2] Building C object CMakeFiles/cmTC_09f92.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_09f92
+FAILED: cmTC_09f92 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=backtrace -Wl,--export-dynamic -rdynamic CMakeFiles/cmTC_09f92.dir/CheckFunctionExists.c.o -o cmTC_09f92  -lexecinfo && :
+/usr/bin/ld: cannot find -lexecinfo: No such file or directory
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file systemd/sd-daemon.h exists failed with the following output:
+Change Dir: /home/wann/Development/udemy-flutter/HyprSource/hyprland-source/build/CMakeFiles/CMakeScratch/TryCompile-wVVJ2z
+
+Run Build Command(s):/usr/bin/ninja cmTC_0809b && [1/2] Building C object CMakeFiles/cmTC_0809b.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_0809b.dir/CheckIncludeFile.c.o 
+/usr/bin/cc -DcmTC_0809b_EXPORTS   -o CMakeFiles/cmTC_0809b.dir/CheckIncludeFile.c.o -c /home/wann/Development/udemy-flutter/HyprSource/hyprland-source/build/CMakeFiles/CMakeScratch/TryCompile-wVVJ2z/CheckIncludeFile.c
+/home/wann/Development/udemy-flutter/HyprSource/hyprland-source/build/CMakeFiles/CMakeScratch/TryCompile-wVVJ2z/CheckIncludeFile.c:1:10: fatal error: systemd/sd-daemon.h: No such file or directory
+    1 | #include <systemd/sd-daemon.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
